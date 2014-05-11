@@ -1,0 +1,222 @@
+﻿body{
+	background-image: url(../img/topBG.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color:#006055;
+	width: 100%;
+	margin:0;
+	position:relative;
+	zoom:1;
+	overflow:auto;
+	+overflow:hidden;
+	_overflow:hidden;
+}
+div#menuBox{
+	width:100%;
+	height: 50px;
+	position: absolute;
+	top:455px;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index: 10;
+	background-image: url(../img/menuBG.jpg);
+	background-image: -moz-linear-gradient(top, #0095e3,hsla(201, 100%, 36% ,0.5), #00ad8a);
+	background-image: -webkit-linear-gradient(top, #0095e3,hsla(201, 100%, 36% ,0.5), #00ad8a);
+	background-image: -o-linear-gradient(top, #0095e3,hsla(201, 100%, 36% ,0.5), #00ad8a);
+}
+div#menuBox ul{
+	margin: 0 auto;
+	width:980px;
+	height: 50px;
+	padding:0;
+}
+div#menuBox ul li{
+	float: left;
+	list-style: none;
+}
+div#menuBox ul li a{
+	transition:color 0.5s;
+}
+div#menuBox ul li a:hover{
+   color:yellow;
+}
+div#menuBox ul li a{
+	font-family: 'Microsoft YaHei';
+	display: inline-block;
+	font-size: 18px;
+	color:white;
+	text-decoration: none;
+	padding:10px 18px;
+	height: 30px;
+}
+
+.toCenter{
+	width:980px;
+	margin:0 auto;
+	position: relative;
+	zoom:1;
+	overflow: hidden;
+}
+.colorYellow{
+	color:yellow;
+}
+
+div.ordinaryBox{
+	padding-top:520px;
+}
+div#blueBox{
+	width: 100%;
+	height: 600px;
+	background-color: #0297e4;
+	background-image: url(../img/blueShadow.jpg);
+    background-repeat: repeat-x;
+    padding-top: 40px;
+}
+div#orangeBox{
+	width: 100%;
+	height: 300px;
+	background-color: #e84c00;
+	background-image: url(../img/orangeShadow.jpg);
+    background-repeat: repeat-x;
+    padding-top: 40px;
+}
+
+img.titleBox{
+	/*box-shadow: 0 4px 0 hsla(0, 0%, 0% , 0.2);*/
+}
+
+p,ol li{
+   text-indent:32px;
+   color:white;
+   line-height: 30px;
+   font-size: 16px;
+   margin: 0;
+}
+ol li{
+	text-indent:0;
+}
+.addMB{
+	margin-bottom:20px; 
+}
+.addMT{
+	margin-top:15px; 
+}
+.lossMT{
+	margin-top:-70px; 
+}
+.add2ML{
+	margin-left: 24px;
+}
+.add4ML{
+	margin-left: 80px;
+}
+.add8ML{
+	margin-left: 104px;
+}
+div#n2ndBox{
+	height: 265px;
+}
+div#n2ndBox div#sponsor{
+	padding-right: 50px;
+}
+div#n2ndBox img{
+	display: block;
+}
+div#n2ndBox div,div.timeText{
+    float: left;
+}
+
+div#genreBox{
+	width: 800px;
+	height: 240px;
+	margin: 0 auto;
+	background-image: url(../img/blueBG.jpg);
+	+background-image:none;
+	_background-image:none;
+}
+div#genreBox div{
+    background-image: url(../img/boxBG.png);
+    +background-image: url(../img/boxBG.jpg);
+    _background-image: url(../img/boxBG.jpg);
+    width: 227px;
+    height: 168px;
+    display: inline-block;
+    +float:left;
+    _float:left;
+    margin-right: 50px;
+    margin-top: 20px;
+    position: relative;
+    zoom:1;
+	overflow: hidden;
+}
+div#genreBox div h3{
+	font-family: 'Microsoft YaHei';
+	font-size: 22px;
+	color:#006056;
+	position: absolute;
+	left:81px;
+	top:-5px;
+	+top:14px;
+	_top:14px;
+	width: 66px;
+	height: 30px;
+}
+div#genreBox div p{
+	line-height: 25px;
+	text-indent:0;
+	text-align: center;
+	position: absolute;
+}
+div#genreBox div p#art{
+    top:72px;
+    left:35px;
+}
+div#genreBox div p#skill{
+    top:60px;
+    left:66px;
+}
+div#genreBox div p#UI{
+    top:53px;
+    left:83px;
+}
+
+div#genreBox div.noMarginRight{
+	margin:20px 0 0 0;
+}
+
+p#pFirst{/*第一批 文字*/
+	position: absolute;
+	left:112px;
+	top:410px;
+}
+p#pSecond{/*第一批 文字*/
+	position: absolute;
+	top:410px;
+	left:530px;
+}
+img#timeImg{
+	margin-left: 30px;
+}
+
+div#firstTimeText{
+	margin-left: 100px;
+}
+div#secondTimeText{
+	margin-left: 180px;
+}
+
+div#bottomBox{
+	height: 278px;
+	width: 100%;
+	background-image: url(../img/bottomBG.jpg);
+	background-position: center;
+	margin-top:-150px;
+}
+div#bottomBox p{
+	color:#bebebe;
+	text-indent: 0;
+	text-align: center;
+	position: relative;
+	top:230px;
+}
